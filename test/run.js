@@ -6,6 +6,6 @@ translate({
     text: text,
     source: 'es',
     target: 'en'
-}, function(translation) {
+}).then(function(translation) {
     console.log(translation);
 });
